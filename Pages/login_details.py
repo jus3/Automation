@@ -14,12 +14,10 @@ class LoginPage:
         self.page.goto("https://www.reddit.com/")
 
     def login(self, username, password):
-        # 1. Click the 'Log In' button to open the form
+
         self.login_button.click()
 
-        # 2. Fill the inputs using the arguments passed to this function
         self.username_input.fill(username)
         self.password_input.fill(password)
 
-        # 3. Submit the form
         self.submit_button.click()
