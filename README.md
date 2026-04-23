@@ -8,29 +8,30 @@ Create project in PyCharm / any IDE
 2) Create Virtual Environment (venv) [Always Create New]
 where python  (Check Python path)
 py -m venv .venv  (Create virtual environment)
-.\.venv\Scripts\Activate  (Activate venv)
+Windows (PowerShell/CMD)= .\.venv\Scripts\Activate  (Activate venv)
+Linux / macOS / WSL= source .venv/bin/activate
 Remove-Item -Recurse -Force .venv (To Remove Old Evn)
 
-3) Install Pytest
+4) Install Pytest
 pip install pytest
 pytest --version  (Verify installation)
 
-4) Install Playwright
+5) Install Playwright
 pip install playwright
 playwright install  (Install browsers)
 python -m pip install pytest-playwright  (Pytest integration)
 playwright codegen  (Quick verification + locator capture tool)
 
-5) Install Selenium
+6) Install Selenium
 pip install selenium
 pip install webdriver-manager  (Optional – auto manages drivers)
 
-6) Install Git
+7) Install Git
 Download & install from official site
 git --version  (Verify installation)
 git init  (Initialize repository)
 
-7) Install Allure Reporting
+8) Install Allure Reporting
 pip install allure-pytest  (Pytest plugin)
 allure --version  (Verify CLI installation)
 
