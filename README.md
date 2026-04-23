@@ -47,3 +47,22 @@ pip install -r requirements.txt  (Install from file)
 pytest --alluredir=Reports/allure-results (To generate and open HTML report in browser)
 python -m pytest (Also Works)
 python -m pytest --alluredir=Reports/allure-results (Also Works)
+
+10) GIT COMMAND
+
+**TO PUSH**
+Navigate to the Project Folder in PyCharm terminal
+git remote add origin https://github.com/jus3/PMP_August.git
+git remote set-url origin https://github.com/jus3/PMP_Final.git (IF NEEDED)
+git remote -v
+git add .
+git commit -m "Your meaningful commit message"
+git push origin main  |  git push origin main --force
+
+**TO GET**
+git status
+git pull origin main
+git fetch origin && git reset --hard origin/main
+
+**To Clone**
+git clone https://github.com/jus3/PMP.git (URL)
