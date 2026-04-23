@@ -6,7 +6,8 @@
 Create project in PyCharm / any IDE
 
 2) Create Virtual Environment (venv) [Always Create New]
-where python  (Check Python path)
+Windows= where python  (Check Python path)
+Linux= which python (Check Python path)
 py -m venv .venv  (Create virtual environment)
 Windows (PowerShell/CMD)= .\.venv\Scripts\Activate  (Activate venv)
 Linux / macOS / WSL= source .venv/bin/activate
